@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STATIC//BLOOM 2027 — Three days in the old shipyard</title>
+  <meta name="description" content="STATIC//BLOOM is a three-day independent electronic music festival in the Old North Shipyard, 16–18 July 2027. Lineup, timetable, tickets and site map.">
+  <meta name="theme-color" content="#f2ff00">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="STATIC//BLOOM 2027 — Jul 16–18, Old North Shipyard">
+  <meta property="og:description" content="Three stages, 36 acts, one shipyard. A concept festival site.">
+  <meta property="og:image" content="https://minty-web.github.io/4/preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Archivo:wght@400;600;800&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="ticker" aria-label="Festival news">
+    <div class="ticker-track">
+      <p class="ticker-group">
+        <span>Jul 16–18 2027</span><span>Old North Shipyard</span><span>3 stages</span><span>36 acts</span>
+        <span>Shuttle ferries until 03:30</span><span>No phones on the dancefloor (please)</span><span>Weekend tickets moving fast</span>
+      </p>
+      <p class="ticker-group" aria-hidden="true">
+        <span>Jul 16–18 2027</span><span>Old North Shipyard</span><span>3 stages</span><span>36 acts</span>
+        <span>Shuttle ferries until 03:30</span><span>No phones on the dancefloor (please)</span><span>Weekend tickets moving fast</span>
+      </p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="STATIC//BLOOM, back to top">STATIC<span>//</span>BLOOM</a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#lineup">Lineup</a></li>
+        <li><a href="#timetable">Timetable</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-pink header-cta" href="#tickets">Tickets</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <h1 class="hero-title" id="hero-title">
+          <span class="line">Static</span>
+          <span class="line line-pink">//Bloom</span>
+          <span class="sr-only">2027</span>
+        </h1>
+
+        <div class="hero-row">
+        <p class="line line-small" aria-hidden="true">2027</p>
+        <div class="hero-side">
+        <p class="hero-dates"><span>Jul 16–18</span> Old North Shipyard · 3 stages · 36 acts</p>
+
+        <div class="countdown" data-countdown="2027-07-16T16:00:00+01:00" aria-live="off">
+          <p class="countdown-label">Gates open in</p>
+          <div class="countdown-boxes" role="timer" aria-label="Time until the gates open">
+            <div class="cd-box"><span class="cd-num" data-cd="days">000</span><span class="cd-unit">days</span></div>
+            <div class="cd-box"><span class="cd-num" data-cd="hours">00</span><span class="cd-unit">hrs</span></div>
+            <div class="cd-box"><span class="cd-num" data-cd="minutes">00</span><span class="cd-unit">min</span></div>
+            <div class="cd-box"><span class="cd-num" data-cd="seconds">00</span><span class="cd-unit">sec</span></div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-pink btn-big" href="#tickets">Get tickets</a>
+          <a class="btn btn-white btn-big" href="#lineup">See the lineup</a>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="stickers" aria-hidden="true">
+        <span class="sticker sticker-round">3 days<br><b>36</b><br>acts</span>
+        <span class="sticker sticker-tape">Old North Shipyard</span>
+        <span class="sticker sticker-star"><span>Early bird gone<br>(sorry)</span></span>
+      </div>
+    </section>
+
+    <!-- Lineup -->
+    <section class="section lineup" id="lineup" aria-labelledby="lineup-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="lineup-title">Lineup</h2>
+          <p class="section-note">Three nights, three stages. Bigger name, bigger letters.</p>
+        </div>
+
+        <div class="day-tabs" role="tablist" aria-label="Lineup by day" data-tabs="lineup">
+          <button class="day-tab" type="button" role="tab" id="lu-tab-fri" aria-controls="lu-fri" aria-selected="true">Fri 16</button>
+          <button class="day-tab" type="button" role="tab" id="lu-tab-sat" aria-controls="lu-sat" aria-selected="false" tabindex="-1">Sat 17</button>
+          <button class="day-tab" type="button" role="tab" id="lu-tab-sun" aria-controls="lu-sun" aria-selected="false" tabindex="-1">Sun 18</button>
+        </div>
+        <div class="lineup-panels" data-lineup-panels>
+          <!-- filled from the timetable data in script.js -->
+          <div class="lineup-panel" role="tabpanel" id="lu-fri" aria-labelledby="lu-tab-fri" tabindex="0" data-day="fri"></div>
+          <div class="lineup-panel" role="tabpanel" id="lu-sat" aria-labelledby="lu-tab-sat" tabindex="0" data-day="sat" hidden></div>
+          <div class="lineup-panel" role="tabpanel" id="lu-sun" aria-labelledby="lu-tab-sun" tabindex="0" data-day="sun" hidden></div>
+        </div>
+        <noscript><p class="section-note">Turn on JavaScript to see the full lineup and timetable.</p></noscript>
+      </div>
+    </section>
+
+    <!-- Timetable -->
+    <section class="section timetable" id="timetable" aria-labelledby="timetable-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="timetable-title">Timetable</h2>
+          <p class="section-note">Tap a set to add it to your plan. It’s saved on this device.</p>
+        </div>
+
+        <div class="tt-bar">
+          <div class="day-tabs" role="tablist" aria-label="Timetable by day" data-tabs="timetable">
+            <button class="day-tab" type="button" role="tab" id="tt-tab-fri" aria-controls="tt-fri" aria-selected="true">Fri 16</button>
+            <button class="day-tab" type="button" role="tab" id="tt-tab-sat" aria-controls="tt-sat" aria-selected="false" tabindex="-1">Sat 17</button>
+            <button class="day-tab" type="button" role="tab" id="tt-tab-sun" aria-controls="tt-sun" aria-selected="false" tabindex="-1">Sun 18</button>
+          </div>
+          <a class="plan-link" href="#my-plan">My plan <span class="plan-count" data-plan-count>0</span></a>
+        </div>
+
+        <div data-tt-panels>
+          <div class="tt-panel" role="tabpanel" id="tt-fri" aria-labelledby="tt-tab-fri" data-day="fri"></div>
+          <div class="tt-panel" role="tabpanel" id="tt-sat" aria-labelledby="tt-tab-sat" data-day="sat" hidden></div>
+          <div class="tt-panel" role="tabpanel" id="tt-sun" aria-labelledby="tt-tab-sun" data-day="sun" hidden></div>
+        </div>
+
+        <aside class="my-plan" id="my-plan" aria-labelledby="my-plan-title">
+          <div class="my-plan-head">
+            <h3 id="my-plan-title">My plan</h3>
+            <button class="btn btn-small btn-white" type="button" data-plan-clear>Clear</button>
+          </div>
+          <div data-plan-list aria-live="polite">
+            <p class="plan-empty">Nothing yet. Pick a few sets above and they’ll show up here, with a warning if two clash.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Tickets -->
+    <section class="section tickets" id="tickets" aria-labelledby="tickets-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="tickets-title">Tickets</h2>
+          <p class="section-note">No booking fees. No dynamic pricing. No nonsense.</p>
+        </div>
+
+        <form class="ticket-form" data-tickets>
+          <ul class="ticket-list">
+            <li class="ticket" data-ticket="day" data-price="59">
+              <div class="ticket-info">
+                <h3>Day ticket</h3>
+                <p>Any one day. Choose at the gate.</p>
+              </div>
+              <p class="ticket-price">£59</p>
+              <div class="stepper">
+                <button type="button" class="step-btn" data-step="-1" aria-label="Remove one day ticket">−</button>
+                <output class="step-value" aria-label="Day tickets selected">0</output>
+                <button type="button" class="step-btn" data-step="1" aria-label="Add one day ticket">+</button>
+              </div>
+            </li>
+            <li class="ticket ticket-hot" data-ticket="weekend" data-price="139">
+              <span class="ticket-flag">Best value</span>
+              <div class="ticket-info">
+                <h3>Weekend</h3>
+                <p>All three days, every stage, every set.</p>
+              </div>
+              <p class="ticket-price">£139</p>
+              <div class="stepper">
+                <button type="button" class="step-btn" data-step="-1" aria-label="Remove one weekend ticket">−</button>
+                <output class="step-value" aria-label="Weekend tickets selected">0</output>
+                <button type="button" class="step-btn" data-step="1" aria-label="Add one weekend ticket">+</button>
+              </div>
+            </li>
+            <li class="ticket" data-ticket="camping" data-price="179">
+              <div class="ticket-info">
+                <h3>Weekend + camping</h3>
+                <p>All three days plus a pitch in the Dry Dock field.</p>
+              </div>
+              <p class="ticket-price">£179</p>
+              <div class="stepper">
+                <button type="button" class="step-btn" data-step="-1" aria-label="Remove one weekend and camping ticket">−</button>
+                <output class="step-value" aria-label="Weekend and camping tickets selected">0</output>
+                <button type="button" class="step-btn" data-step="1" aria-label="Add one weekend and camping ticket">+</button>
+              </div>
+            </li>
+          </ul>
+
+          <div class="checkout-bar">
+            <p class="total">Total <output data-total aria-live="polite">£0</output></p>
+            <p class="limit-note">Max 8 tickets per order.</p>
+            <button class="btn btn-pink btn-big" type="submit" data-checkout disabled>Checkout</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section map-section" id="map" aria-labelledby="map-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="map-title">Site map</h2>
+          <p class="section-note">Hover or tap a place to find it on the map.</p>
+        </div>
+
+        <div class="map-layout">
+          <div class="map-frame">
+            <svg class="site-map" viewBox="0 0 800 500" role="img" aria-labelledby="map-svg-title map-svg-desc">
+              <title id="map-svg-title">Map of the Old North Shipyard festival site</title>
+              <desc id="map-svg-desc">The river runs along the south and west edges. The Drydock main stage sits in the old dry dock in the middle, Crane 9 is by the north-east cranes, and The Hold is in the warehouse to the north-west. Food, bars and camping surround them, with the entrance on the east side.</desc>
+              <defs>
+                <pattern id="water" width="24" height="12" patternUnits="userSpaceOnUse">
+                  <path d="M0 6c4-4 8-4 12 0s8 4 12 0" fill="none" stroke="#0b0b0b" stroke-width="1.5" opacity=".35"/>
+                </pattern>
+              </defs>
+              <rect width="800" height="500" fill="#ffffff"/>
+              <path d="M0 360c120-20 210 30 330 10s220-50 470-20v150H0Z" fill="#9ed8ff"/>
+              <path d="M0 360c120-20 210 30 330 10s220-50 470-20v150H0Z" fill="url(#water)"/>
+              <path d="M0 0h90c-10 120 10 240-20 360H0Z" fill="#9ed8ff"/>
+              <path d="M0 0h90c-10 120 10 240-20 360H0Z" fill="url(#water)"/>
+              <!-- paths -->
+              <path d="M110 300h600M420 60v260M700 120v180" fill="none" stroke="#0b0b0b" stroke-width="10" stroke-dasharray="2 14" stroke-linecap="round" opacity=".35"/>
+
+              <g class="zone" data-zone="hold">
+                <rect x="120" y="50" width="200" height="130" fill="#f2ff00" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="220" y="122" text-anchor="middle">THE HOLD</text>
+              </g>
+              <g class="zone" data-zone="drydock">
+                <path d="M300 220h220l-20 110H320Z" fill="#ff2e88" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="410" y="282" text-anchor="middle">DRYDOCK</text>
+              </g>
+              <g class="zone" data-zone="crane">
+                <rect x="560" y="60" width="170" height="110" fill="#3355ff" stroke="#0b0b0b" stroke-width="4"/>
+                <path d="M590 60V20h90M680 20v40M640 20l-30 40" fill="none" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="645" y="124" text-anchor="middle" fill="#ffffff">CRANE 9</text>
+              </g>
+              <g class="zone" data-zone="food">
+                <rect x="120" y="210" width="150" height="70" fill="#ffffff" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="195" y="252" text-anchor="middle">FOOD YARD</text>
+              </g>
+              <g class="zone" data-zone="bars">
+                <rect x="360" y="90" width="150" height="70" fill="#ffffff" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="435" y="132" text-anchor="middle">BARS</text>
+              </g>
+              <g class="zone" data-zone="camping">
+                <rect x="560" y="210" width="130" height="90" fill="#ffffff" stroke="#0b0b0b" stroke-width="4"/>
+                <path d="M585 280l18-30 18 30M635 280l18-30 18 30" fill="none" stroke="#0b0b0b" stroke-width="3"/>
+                <text x="625" y="240" text-anchor="middle">CAMPING</text>
+              </g>
+              <g class="zone" data-zone="entrance">
+                <rect x="730" y="230" width="60" height="70" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="760" y="272" text-anchor="middle" fill="#f2ff00" class="small">IN</text>
+              </g>
+              <g class="zone" data-zone="info">
+                <circle cx="360" cy="40" r="22" fill="#ffffff" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="360" y="48" text-anchor="middle" class="small">i</text>
+              </g>
+              <g class="zone" data-zone="ferry">
+                <path d="M160 400h120l-14 24H174Z" fill="#ffffff" stroke="#0b0b0b" stroke-width="4"/>
+                <text x="220" y="456" text-anchor="middle" class="small">FERRY PIER</text>
+              </g>
+            </svg>
+          </div>
+
+          <ul class="legend">
+            <li><button type="button" data-zone="drydock"><span class="swatch sw-pink"></span>Drydock: main stage</button></li>
+            <li><button type="button" data-zone="crane"><span class="swatch sw-blue"></span>Crane 9: second stage</button></li>
+            <li><button type="button" data-zone="hold"><span class="swatch sw-yellow"></span>The Hold: warehouse, all night</button></li>
+            <li><button type="button" data-zone="food"><span class="swatch"></span>Food yard: 14 traders</button></li>
+            <li><button type="button" data-zone="bars"><span class="swatch"></span>Bars &amp; free water</button></li>
+            <li><button type="button" data-zone="camping"><span class="swatch"></span>Camping: Dry Dock field</button></li>
+            <li><button type="button" data-zone="entrance"><span class="swatch sw-black"></span>Entrance &amp; box office</button></li>
+            <li><button type="button" data-zone="info"><span class="swatch"></span>Info, first aid &amp; lost property</button></li>
+            <li><button type="button" data-zone="ferry"><span class="swatch"></span>Ferry pier: shuttles every 20 min</button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="faq-title">FAQ</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>What’s the age policy?</summary>
+            <p>18+ after 21:00. Under-16s are welcome on Saturday and Sunday afternoons with an adult.</p>
+          </details>
+          <details>
+            <summary>Can I bring a bag?</summary>
+            <p>Small bags only, around A4 size. No glass, no gazebos and no air horns. Especially no air horns.</p>
+          </details>
+          <details>
+            <summary>How do I get there?</summary>
+            <p>Shuttle ferries leave the city pier every 20 minutes until 03:30. There’s secure bike parking at the east gate and no car parking at all.</p>
+          </details>
+          <details>
+            <summary>Is the site accessible?</summary>
+            <p>Every stage has a raised viewing platform, step-free routes are marked on the map, and our access team answers emails within a day.</p>
+          </details>
+          <details>
+            <summary>What does “no phones on the dancefloor” mean?</summary>
+            <p>We put a sticker over your camera at the gate. Take photos anywhere else; the floor in front of the speakers is for dancing.</p>
+          </details>
+          <details>
+            <summary>Is this festival real?</summary>
+            <p>Not yet. STATIC//BLOOM is a concept site made for a design portfolio, so nothing is sold here.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" aria-labelledby="news-title">
+      <div class="container newsletter-inner">
+        <h2 id="news-title">Hear it first</h2>
+        <form class="news-form" data-news novalidate>
+          <label class="sr-only" for="news-email">Email address</label>
+          <input id="news-email" name="email" type="email" placeholder="your@email.com" autocomplete="email" required aria-describedby="news-msg">
+          <button class="btn btn-black" type="submit">Notify me</button>
+        </form>
+        <p class="news-msg" id="news-msg" aria-live="polite">Lineup drops, set times and ferry updates. Four emails a year, max.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-logo" aria-hidden="true">STATIC<span>//</span>BLOOM</p>
+    <div class="container footer-inner">
+      <p>Jul 16–18 2027 · Old North Shipyard</p>
+      <p>
+        STATIC//BLOOM, its lineup and its shipyard are fictional. Concept site designed and built by
+        <a href="https://github.com/minty-web">minty-web</a>, © <span data-year>2026</span>.
+      </p>
+    </div>
+  </footer>
+
+  <dialog class="modal" data-modal aria-labelledby="modal-title">
+    <div class="modal-inner">
+      <h2 id="modal-title">Nice try!</h2>
+      <p class="modal-text">STATIC//BLOOM isn’t real (yet), so no payment was taken and no tickets were issued. Here’s what you would have bought:</p>
+      <ul class="modal-lines" data-modal-lines></ul>
+      <p class="modal-total" data-modal-total></p>
+      <form method="dialog">
+        <button class="btn btn-black btn-big" type="submit">Close</button>
+      </form>
+    </div>
+  </dialog>
+</body>
+</html>
